@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.onepart{
+    background-color: beige;
+}
+header a {
+    color: darkolivegreen;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+header h1 {
+    color: cadetblue;
+    text-align: left;
+}
+header ul {
+    position: absolute;
+    right: 1vw;
+    top: 20px;
+}
+
+.background {
+    position: relative;
+}
+.twopart {
+    background-color: cadetblue;
+    /* background-image: url(images/phpmRp0rx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5  */
+}
+.wraptwopart {
+    padding: 50px 40px;
+    text-align: center;
+    color: beige;
+}
+.picture1 {
+    /* border: 5px darkcyan solid; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+
+.iam {
+    padding: 60px 40px;
+    width: 40%;
+}
+
+.iamcontent {
+    color:darkolivegreen;
+    font-size: 83px;
+    margin-bottom: 20px;
+}
+
+.iamcontent > span {
+    color:beige;
+    text-shadow: -1px -1px 0 darkolivegreen, 1px -1px 0 darkolivegreen, -1px 1px 0 darkolivegreen, 1px 1px 0 darkolivegreen;
+}
+.iamcontent-p {
+    font-size: 17px;
+    color:darkolivegreen;
+    font-weight: bold;
+
+}
+
+.threepart {
+    background-color: beige;
+    display: flex;
+    /* background-image: url(images/phpmRp0rx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8 */
+
+}
+.intro {
+    margin: 40px 40px;
+    padding: 50px 50px;
+    width: 500px;
+    height: 200px;
+    border-radius: 20%;
+    background-color:cadetblue;
+    border: 5px darkolivegreen dotted;
+    
+}
+
+.introduce {
+    color: beige;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.picture2 {
+    width: 90px;
+    height: 90px;
+    /* display: inline; */
+
+}
+
+.introduce1 {
+    position: absolute;
+    color: darkolivegreen;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline;
+    margin: 10px 0px ;
+    padding: 10px 0px ;
+}
+
+.intro2 {
+    padding: 5px 0px ;
+    margin: 5px 0px ;
+    width: 250px;
+    height: 80px;
+    border-radius: 20%;
+    background-color:darkolivegreen;
+    border: 5px darkolivegreen double;
+    /* text-align: center; */
+    position: absolute;
+    right: 21%;
+    background-image: linear-gradient(to top, white, cadetblue);
+   
+
+}
+
