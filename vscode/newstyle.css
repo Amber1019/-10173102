@@ -1,0 +1,185 @@
+/* <!-- <header> --> */
+/* .navbar {
+    font-size: 18px;
+} */
+.nav-item {
+    padding: 10px;
+}
+
+/* <!-- <section-home> --> */
+.twopart {
+    background-color: cadetblue;
+    
+}
+.wraptwopart {
+    color: beige;
+}
+.picture1 {
+    width: 250px;
+    height: 250px;
+}
+.threepart {
+    background-color: beige;
+}
+.iamcontent {
+    color:darkolivegreen;
+    font-size: 83px;
+    margin-bottom: 20px;
+}
+.iamcontent > span {
+    color:beige;
+    text-shadow: -1px -1px 0 darkolivegreen, 1px -1px 0 darkolivegreen, -1px 1px 0 darkolivegreen, 1px 1px 0 darkolivegreen;
+}
+
+/* <!-- <school> --> */
+.slide-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/phpmRp0rx.jpg);
+}
+.slide-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/626a69f508fa0946257956.jpg);
+}
+.bg-cover {
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+/* <!-- <about> --> */
+.aboutbg {
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    background-color: beige;
+
+}
+/* .col-lg-5 img {
+    margin-bottom: 50px; 
+    width:100%
+} */
+
+.aboutme {
+    color: darkolivegreen;
+}
+.col-lg-5, h1 {
+    color: #3a1d1a;
+    padding-bottom: 10px;
+}
+
+
+/* <!-- <Travel> --> */
+/* .travelbg{
+    background-color: cadetblue;
+} */
+.section-title, h1 {
+    color: #3a1d1a;
+    padding-bottom: 10px;
+}
+.team-row{
+	margin-top: 3rem;
+    /* margin-top:30px; */
+}
+.singl-teams{
+	border:2px solid #EEEEEE;
+}
+.team-img {
+	object-fit: cover;
+    /* height: 100%;
+	width:100%; */
+}
+.travel-content{
+	padding:0 2rem;
+    /* padding:0 20px; */
+}
+.travel-content .travel-div {
+	max-width:150px;
+	border: 3px solid darkolivegreen;
+	padding: 1.2rem;
+	box-sizing: border-box;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	transform: translateY(-50%);
+	background:  beige;
+    /* -webkit-transform: translateY(-50%); */
+    /* width:100%; */
+    /* text-align: center; */	
+}
+.travel-content p {
+	margin: unset;
+	font-size: 15px;
+	color: darkolivegreen;
+	/* line-height: 18px; */
+    /* text-align: center; */
+}
+.travel-area .travel-content .batton{
+	margin:3rem 0;
+    /* margin:30px 0; */
+}
+
+
+
+/* <!-- <Eduation> --> */
+.Eduation {
+    margin: 50px auto;
+    margin-top: 30px;
+}
+.Eduation, h1 {
+    color: #3a1d1a;
+    padding-bottom: 10px;
+}
+h1::after {
+    content: "  ";
+    background: #3a1d1a;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.col-md-4 {
+    margin: 40px auto;
+}
+.profile {
+    padding: 10px 10px;
+    background-color: #f3e4db;
+}
+.profile img {
+    left: calc(50% -60px);
+    border: 1px dashed white;
+    padding: 3px;
+}
+.school {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before {
+    content: '\201C';
+    font-size: 50px;
+    position: relative;
+    color: #3a1d1a;
+    bottom: -15px;
+    right: 5px;
+    /* line-height: 20px; */
+}
+blockquote::after {
+    content: '\201D';
+    font-size: 50px;
+    position: relative;
+    color: #3a1d1a;
+    bottom: -15px;
+    left: 5px;
+    /* line-height: 10px; */
+}
+.profile:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer
+}
+
+/* <!-- <contact> --> */
+.col-12, h1{
+    color: #3a1d1a;
+    padding-bottom: 10px;
+}
